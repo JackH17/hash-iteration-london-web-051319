@@ -17,6 +17,7 @@ def age_appropriate_birthday
   birthday_kids.each do |name, age|
     
     binding.pry
+    
     if age > 12 
       puts "you are too old for this"
       
